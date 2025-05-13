@@ -1,0 +1,13 @@
+ros-jazzy-at-sonde-ros-driver (1.0.0-1noble) noble; urgency=high
+
+  * Create dependabot.yml
+  * Retire ament_target_dependencies in cmake
+  * Set up CI, bypass linting for humble due to different default cfgsbug mode
+  * Set up serial communication and accept wiper warning (ID 4)
+  * Provide a config example.
+  * Initial release
+  * Contributors: MA Song
+
+ -- MA Song <song.ma.18@ucl.ac.uk>  Mon, 12 May 2025 23:00:00 -0000
+
+
