@@ -1,0 +1,12 @@
+Source: ros-humble-at-sonde-ros-driver
+Section: misc
+Priority: optional
+Maintainer: MA Song <song.ma.18@ucl.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), libmodbus-dev, ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-rclcpp, ros-humble-std-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-at-sonde-ros-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libmodbus-dev, ros-humble-rclcpp, ros-humble-std-msgs, ros-humble-ros-workspace
+Description: A ROS 2 driver to stream the monitored parameters of an In-Situ Aqua TROLL Multiparameter Sonde.
