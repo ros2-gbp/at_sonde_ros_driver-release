@@ -1,0 +1,12 @@
+Source: ros-lyrical-at-sonde-ros-driver
+Section: misc
+Priority: optional
+Maintainer: MA Song <song.ma.18@ucl.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), libmodbus-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-rclcpp, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/at_sonde_ros_driver/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-at-sonde-ros-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libmodbus-dev, ros-lyrical-rclcpp, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Description: A ROS 2 driver to stream the monitored parameters of an In-Situ Aqua TROLL Multiparameter Sonde.
